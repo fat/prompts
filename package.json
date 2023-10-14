@@ -1,15 +1,9 @@
 {
-  "name": "@fat/prompts",
-  "version": "2.4.2",
+  "name": "fat-prompts",
+  "version": "0.0.1",
   "description": "Lightweight, beautiful and user-friendly prompts",
   "license": "MIT",
-  "repository": "terkelg/prompts",
   "main": "index.js",
-  "author": {
-    "name": "Terkel Gjervig",
-    "email": "terkel@terkel.com",
-    "url": "https://terkel.com"
-  },
   "files": [
     "lib",
     "index.js"
@@ -19,20 +13,6 @@
     "test": "tape test/*.js | tap-spec",
     "test-types": "tsc --noEmit test/type-declarations.ts"
   },
-  "keywords": [
-    "ui",
-    "prompts",
-    "cli",
-    "prompt",
-    "interface",
-    "command-line",
-    "input",
-    "command",
-    "stdin",
-    "menu",
-    "ask",
-    "interact"
-  ],
   "dependencies": {
     "kleur": "^4.0.1",
     "sisteransi": "^1.0.5"
