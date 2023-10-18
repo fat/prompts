@@ -135,6 +135,13 @@ type HasProperty<T, K> = K extends keyof T ? true : false;
 	});
 
 	await prompts({
+		type: 'task',
+		name: 'value',
+		message: 'boolean',
+		initial: true
+	});
+
+	await prompts({
 		type: 'date',
 		name: 'value',
 		message: 'date',

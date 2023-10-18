@@ -27,7 +27,8 @@ test('prompts', t => {
     'multiselect',
     'autocompleteMultiselect',
     'autocomplete',
-    'date'
+    'date',
+    'task'
   ];
 
   types.forEach(p => {
