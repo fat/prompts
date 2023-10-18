@@ -1,5 +1,5 @@
 {
-  "name": "fat-prompts",
+  "name": "@fat/prompts",
   "version": "0.0.3",
   "description": "Lightweight, beautiful and user-friendly prompts",
   "license": "MIT",
